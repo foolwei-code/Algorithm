@@ -22,16 +22,24 @@ public:
   }
 
   void flip() {
-    
+
   }
 
-  bool all() {}
+  bool all() {
+    return true;
+  }
 
-  bool one() {}
+  bool one() {
+    return true;
+  }
 
-  int count() {}
+  int count() {
+    return 1;
+  }
 
-  std::string toString() {}
+  std::string toString() {
+    return "";
+  }
 
 private:
   std::vector<int> bitSet;
